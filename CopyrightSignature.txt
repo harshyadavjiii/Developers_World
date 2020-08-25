@@ -1,0 +1,50 @@
+Guidelines on Copyright Protection Complaints
+Notice
+If the copyright owner (hereinafter referred to as the "Owner") believes that items featured in download services provided by Xiaomi (hereinafter referred to as the "Company") infringe their online content reproduction rights, or have removed or modified their rights to manage electronic information, the Owner may submit a written notice to the Company requesting that the Company remove such items or links to them. The notice shall be signed by the Owner, and if the Owner is a business, it shall be stamped with an official seal.
+
+Please note that if statements in the notice are inaccurate, the notifier shall be responsible for all legal liability (including but not limited to compensation for various charges and attorney fees). If the above person or business is uncertain whether the information obtained from the corresponding services provided by the Company infringes upon their legitimate rights and interests, the Company advises the person or business to first consult with a professional. The notice shall contain the following:
+
+Owner's name, contact information, address, ID card copy (natural person), copy of business registration (business);
+The exact name and network address of the linked infringing item for which removal or disconnection is requested;
+Preliminary proof for consideration of infringement, including but not limited to proof of ownership or a creation manuscript for the item that is protected by copyright or, by law, enjoys online content broadcasting rights.
+The Owner shall be responsible for the authenticity of the notice. If the contents of the notice are untrue, the Owner shall bear all legal liability arising therefrom. The Company shall immediately remove the allegedly infringing item or disconnect the link to the allegedly infringing item upon receipt of the notice from the Owner and shall also transfer the notice to the item provider.
+
+
+ *°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*
+     
+      Creater's Name - Harsh Yadav
+      Attributes - none (as Self Project)
+      Client Server - Static Site
+      Markup & Styling - Traditional (HTML & CSS)
+      Meta - no Map is Used
+      Server Runtimes - Static Assets
+      Number of Pages - 000004
+      Privacy Policy - No Cookies Generated
+      Author's Name - Harsh Yadav
+      Author's Pincode - 282001
+      Repository Geo-Location - New Dehli
+      
+ *°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*    
+ 
+ 
+Counter Notification:
+Once the item provider receives the transferred notification from the Company, should they believe that the item that they provide not infringe on the rights of others, they may submit a written counter notification to the Company, requesting restoration of the removed item or the disconnected link to the item. The counter notification shall be signed by the provider by hand, and if the provider is a business, it shall be stamped with an official seal.
+
+Provider's name, contact information, address, ID card copy (natural person), copy of business registration (business);
+The exact name and network address of the linked infringing item for which removal or disconnection is requested;
+Preliminary proof for consideration of infringement, including but not limited to proof of ownership or a creation manuscript for the item that enjoys a copyright or, by law, enjoys online content broadcasting rights.
+
+This Repository is claimed by EvilPrince individual 
+community as their native property. The mentions to real 
+owner and community address is given below.
+      
+Professional ASCII Signature :-
+
+#==============================================# 
+  _____       _ _ ____       _
+ | ____|_   _(_) |  _ \ _ __(_)_ __   ___ ___
+ |  _| \ \ / / | | |_) | '__| | '_ \ / __/ _ \
+ | |___ \ V /| | |  __/| |  | | | | | (_|  __/
+ |_____| \_/ |_|_|_|   |_|  |_|_| |_|\___\___|
+
+#==============================================#

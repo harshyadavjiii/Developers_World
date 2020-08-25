@@ -1,0 +1,545 @@
+/*importing fonts*/
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("micons/micons.css");
+@import url("fonts.css");
+
+/*Here we have created article grid*/
+
+article {
+    padding: 0.2in;
+    display: grid;
+    grid-template-columns:1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in  1fr;
+    height: 100%;
+    background-color: #fff;
+}
+
+article:not(:last-child) {box-shadow: inset 0 -0.25em #ebede2;
+	}
+
+article * { grid-column: start / end; }
+
+@media (max-width: 8.5in) {
+article{
+  grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
+    }
+}
+
+/*Article-Text CSS is for modifying the text elements*/
+
+
+/*---Modifying text elements by giving Them correct width,size/height font---*/
+
+h1          { font: 700 2.0rem/1.2 "montserrat"; color: hsl(000,0%,33%); }
+h2          { font: 400 1.5rem/1.2 "montserrat"; color: hsl(000,0%,33%);}
+h3          { font: 700 1.0rem/1.2 "montserrat"; color: hsl(250,100%,67%);}
+time        { font: 700 1.0rem/1.2 "montserrat"; color: hsl(250,100%,83%); padding: 0.2in;}
+p           { font: 400 1.0rem/1.5 'Raleway', sans-serif; color: #282629;  padding-top: 0.2in;}
+.list-use   { font: 400 1.0rem/1.5 'Raleway', sans-serif; color: #282629;  padding-top: 0.2in;}
+
+figcaptions { font: 400 1.0rem/1.2 "Montserrat"; color: hsl(000,0% ,83%);}
+blockquote  { font: 600 1.5rem/1.2 "Montserrat"; color: #E2E2E2;}
+
+/*---This is box shadow property under the <a> selector. This property does create 
+an underline on the link(<a>) tags---*/
+
+a{ color: #5BD; }
+
+/*---Here with the media query we deffrentiate the text size according to the size of the
+Mobile device by two different conditions---*/
+
+@media (max-width: 8.5in){:root{ font-size: 18px; }}
+@media (max-width: 5.0in){:root{ font-size: 16px; }}
+
+figcaptions{
+  margin-top:      0.5rem;
+  display:           flex;
+  justify-content: center;
+  
+}
+
+/*-- Image Size and Grid modification with CSS--*/
+
+.size-1{ grid-column: 2/5; }
+.size-2{ grid-column: 2/6; }
+.size-3{ grid-column: 2/7; }
+.size-4{ grid-column: 2/8; }
+
+.size-1 img, .size-2 img, .size-3 img, .size-4 img{ width: 100% }
+
+@media (max-width: 8.5in){
+  
+  
+.size-1{ grid-column: 4/5; }
+.size-2{ grid-column: 3/6; }
+.size-3{ grid-column: 2/7; }
+.size-4{ grid-column: 1/8; }
+
+.size-1 img, .size-2 img, .size-3 img, .size-4 img{ width: 100% }
+
+  
+}
+
+figure{
+  padding: 0.2in;
+}
+
+.style{
+  display: flex;
+  justify-content: center;
+
+}
+.style * {
+   padding: 0.5rem;
+   width: 2.5rem;
+   height: 2.5rem;
+   
+}
+
+
+
+table {
+  padding-top: 1.0in;
+}
+
+th, td {
+  border: 1px solid #282629;
+  color: #282929;
+  text-decoration: bold;
+  
+}
+
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+.computerGreen {
+background-color: #000000;
+color: green;}
+
+blockquote {
+	margin: 4.2rem 0;
+	padding-left: 4.2rem;
+	position: relative;
+}
+blockquote:before {
+	content: "\201C";
+	font-size: 10rem;
+	line-height: 0px;
+	margin: 0;
+	color: rgba(0, 0, 0, 0.2);
+	font-family: arial, sans-serif;
+	position: absolute;
+	top: 3.6rem;
+	left: 0;
+}
+blockquote p {
+	font-family: "roboto-light", sans-serif;
+	padding: 0;
+	font-size: 2.2rem;
+	line-height: 1.75;
+}
+blockquote cite {
+	display: block;
+	font-family: "muli-regular", sans-serif;
+	font-size: 1.4rem;
+	font-style: normal;
+	line-height: 1.714;
+}
+blockquote cite:before {
+	content: "\2014 \0020";
+}
+blockquote cite a, blockquote cite a:visited {
+	color:  #E2E2E2;
+	border: none;
+}
+
+.button {
+  background-color:     #fff;  /* Akber Dark */
+  border-radius:        25px;
+  border-color:         #5BD;
+  height:                40%;
+  width:                 20%;
+  padding:              16px;
+  text-align:         center;
+  text-decoration:      none;
+  color:             #000;
+  display:      inline-block;
+  font:     400 1.0rem/1.5 'Raleway', sans-serif; color: #E2E2E2; 
+
+}
+
+@media (max-width: 8.5in){
+.button {
+  background-color:   #fff; 
+  color:              #000;
+  border-radius:    15px #5BD;
+  height:                  1%;
+  width:                  60%;
+  padding:          10px 24px;
+  text-align:         center;
+  text-decoration:      none;
+  display:      inline-block;
+  font:         400 1.0rem/1.5 'Raleway', sans-serif; color: #E2E2E2; 
+
+}
+  
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button1{
+  height: 38px;
+  background-color: #5BD;
+  color: #FBFAF1;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+}
+
+.dark * {
+  padding: 3px;
+  background-color: #282629;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*Pernolizing Show case*/
+#showcase{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/img.jpg) no-repeat 0 -600px;
+  min-height: 400px;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 120;
+}
+#showcase p{
+  font-size: 20px;
+}
+
+/*Newsletter*/
+
+#newsletter{
+  background-color: #fff;
+  padding: 15px;
+  color: #282629;
+  border: 2.3432px solid #5bd;
+  
+  
+}
+
+#newsletter h1{
+  color: #282629;
+  float: left;
+  font-size: 22px;
+  margin-top:15px;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  color:  #000;
+  width:   250;
+  height: 25px;
+  border: 1px solid #5BD;
+  border-radius: 4px;
+}
+
+/* boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  padding: 10px;
+  width: 30%;
+}
+
+#boxes .box img{
+  width: 90px;
+}
+/*---------  About Page ------*/
+
+/* Sidebar */
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/* Main Articles*/
+article#main-col{
+  float: left;
+  width: 65%;
+}
+
+/*-------- Services Page ---------*/
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 90%;
+  padding: 5px;
+}
+
+ul#services li{
+  padding: 20px;
+  margin-bottom: 5px;
+  border: #cccccc 1px solid;
+  list-style-type: none;
+  background-color: #e6e6e6;
+  
+}
+
+footer{
+  color: #282629;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.intextQuote{
+  color: #282629 !important;
+}
+
+
+/*----Media Quaries fo Mobile Tab-----*/
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+	float: none;
+	width: 100%;
+	text-align: center;
+  }
+  header {
+	height: auto;
+	padding-bottom: 20px;
+  }
+  
+  #showcase h1{
+	margin-top: 40px;
+	font-size: 45px;
+  }
+  
+  #newsletter button,.quote button{
+	margin-top: 10px;
+	width: 100%;
+	border: none;
+  }
+  
+  #newsletter input[type="email"], .quote input textarea{
+	width: 100%;
+  }
+  
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background: #282629;
+  color: #EBEBD3;
+  padding: 1em 0;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.logo {
+  float: left;
+  color: #e2e2e2;
+  font-size: 1rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.logo span {
+  font-weight: 400;
+  }
+
+.site-nav {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  right: 0%;
+  background: #5bd;
+  clip-path: circle(0px at top right);
+  transition: clip-path ease-in-out 700ms;
+/*   display: none; */
+}
+
+.site-nav--open {
+  clip-path: circle(250% at top right);
+/*   display: block; */
+}
+
+
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.site-nav li {
+  border-bottom: 1px solid #fff;
+}
+
+
+.site-nav li:last-child {
+  border-bottom: none;
+}
+
+.site-nav a {
+  color: #EBEBD3;
+  display: block;
+  padding: 2em 4em 2em 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: #E4B363;
+  color: #464655;
+}
+
+.site-nav--icon {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: 1em;
+  width: 1.1em;
+  text-align: right;
+  color: rgba(255,255,255,.4);
+}
+
+
+.menu-toggle {
+  padding: 1em;
+  position: absolute;
+  top: .5em;
+  right: .5em;
+  cursor: pointer;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  display: block;
+  background: #EBEBD3;
+  height: 3px;
+  width: 1.75em;
+  border-radius: 3px;
+  transition: all ease-in-out 500ms;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
+}
+
+
+.open .hamburger {
+  transform: rotate(45deg);
+}
+
+.open .hamburger::before {
+  opacity: 0;
+}
+
+
+.open .hamburger::after {
+  transform: translateY(-3px) rotate(-90deg);
+}
+
+
+@media (min-width: 8.5in) {
+  
+  .menu-toggle {
+    display: none;
+	
+  }
+  
+  .site-nav {
+    height: auto;
+    position: relative;
+    background: transparent;
+    float: right;
+    clip-path: initial;
+  }
+  
+  .site-nav li {
+    display: inline-block;
+    border: none;
+  }
+  
+  .site-nav a {
+    padding: 0;
+    margin-left: 3em;
+  }
+  
+    
+  .site-nav a:hover,
+  .site-nav a:focus {
+    background: transparent;
+  }
+  
+  .site-nav--icon {
+    display: none;
+  }
+  
+}
